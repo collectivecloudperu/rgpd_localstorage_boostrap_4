@@ -1,0 +1,13 @@
+.rgpdbh {
+	background-color: #ffffff;
+    padding: 20px;
+    -webkit-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px -1px 5px 0px rgba(50, 50, 50, 0.75);
+	/* font-size: 14px; */
+	color: #444444;
+}
+
+.bcrgpdbh {
+	padding-right: 100px;
+}
