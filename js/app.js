@@ -1,6 +1,6 @@
 // Cerrar Barra RGPD
 function hbRgpd() {
-  localStorage.setItem("rgpd", "aceptado"); // Creamos una valor en 'localStorage'
+  localStorage.setItem("rgpd", "aceptado"); // Almaceno el dato 'rgpd' con el valor 'aceptado' en localStorage
   document.getElementsByClassName("rgpdbh")[0].style.display = 'none'; // Oculto mi div con nombre de clase 'rgpdbh'
 }    
 
