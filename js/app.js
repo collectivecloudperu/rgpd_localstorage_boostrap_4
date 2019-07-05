@@ -12,6 +12,6 @@ var rgpdval = localStorage.getItem("rgpd");
 if (rgpdval == 'aceptado') { // Si contiene el valor 'aceptado' ya no le mostramos la barra
   document.getElementsByClassName("rgpdbh")[0].style.display = 'none';
 }
-else { // Si no cerro la barra y no tiene almacenado el dato 'rgpd' con el valor 'aceptado' en localStorage, no se le muestra la Barra RGPD
+else { // Si no cerro la barra y no tiene almacenado el dato 'rgpd' con el valor 'aceptado' en localStorage, le mostramos la Barra RGPD
   document.getElementsByClassName("rgpdbh")[0].style.display = 'inherit';
 } 
