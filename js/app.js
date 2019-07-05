@@ -4,11 +4,11 @@ function hbRgpd() {
   document.getElementsByClassName("rgpdbh")[0].style.display = 'none'; // Oculto mi div con nombre de clase 'rgpdbh'
 }    
 
-// Leo si el dato 'rgpd' esta en Local Storage
+// Leo el dato 'rgpd' almacenado en localStorage y lo coloco en la variable 'rgpdval'
 var rgpdval = localStorage.getItem("rgpd");
 //console.log(gdprval);
 
-// Verificamos si el dato 'rgpd' ha sido seteado en Local Storage
+// Verifico si el dato 'rgpd' ha sido almacenado en localStorage
 if (rgpdval == 'aceptado') {
   document.getElementsByClassName("rgpdbh")[0].style.display = 'none';
 }
